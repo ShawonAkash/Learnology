@@ -16,18 +16,7 @@
 }
 
 #about .container {
-  padding-top: 90px;
-  z-index: 3;
-}
-
-#about #about::before {
-  content: "";
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
-  background-color: rgba(214, 34, 34, 0.25);
+  padding-top: 60px;
 }
 
 #difference {
@@ -43,5 +32,8 @@
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
+  width: 100%;
+  height: 35vh;
+  padding-top: 55px;
 }
 /*# sourceMappingURL=style.css.map */

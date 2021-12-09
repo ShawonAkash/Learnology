@@ -8,27 +8,26 @@
   height: 50vh;
   text-align: center;
   .container{
-    padding-top: 90px;
-    z-index: 3;
+    padding-top: 60px;
   }
-  #about::before {
-    content: "";
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(214, 34, 34, 0.25);
 }
-}
+
+
+
+
+
 #difference{
   background: url('../img/bg.jpg') no-repeat center center/cover;
   width: 60%;
   height: 50vh;
 }
+
 #instructors{
   background: url('../img/friendss.png') no-repeat center center/cover;
   margin-top: 10vh;
   align-items: center;
   text-align: center;
+  width: 100%;
+  height: 35vh;
+  padding-top: 55px;
 }
