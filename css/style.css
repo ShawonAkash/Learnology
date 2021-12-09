@@ -9,7 +9,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url("../img/Image.png") no-repeat center center/cover;
+  background-image: url("../img/Image.png");
+  background-repeat: no-repeat;
+  background-color: #002B46;
+  background-blend-mode: multiply;
+  opacity: 0.7;
   width: 100%;
   height: 50vh;
   text-align: center;
@@ -17,6 +21,7 @@
 
 #about .container {
   padding-top: 60px;
+  color: whitesmoke;
 }
 
 #difference {
@@ -26,6 +31,50 @@
 }
 
 #instructors {
+  margin-top: 40px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#instructors h4 {
+  color: orange;
+}
+
+#instructors h1 {
+  color: #002B46;
+}
+
+#instructors .card {
+  margin-top: 50px;
+  margin-right: 20px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 40vh;
+  height: 40vh;
+  overflow: visible;
+}
+
+#instructors .card img {
+  width: 30vh;
+  height: 20vh;
+  border: 6px solid orange;
+  overflow: visible;
+}
+
+#instructors .card:hover {
+  -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#instructors .container {
+  padding: 2px 16px;
+}
+
+#enroll {
   background: url("../img/friendss.png") no-repeat center center/cover;
   margin-top: 10vh;
   -webkit-box-align: center;
@@ -35,5 +84,49 @@
   width: 100%;
   height: 35vh;
   padding-top: 55px;
+}
+
+#enroll h1 {
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+#enroll p {
+  color: whitesmoke;
+}
+
+#teaching {
+  height: 70vh;
+  margin-top: 60px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#teaching p {
+  color: orange;
+}
+
+#teaching h1 {
+  color: #002B46;
+}
+
+#teaching p1 {
+  color: #002B46;
+}
+
+#teaching .col {
+  width: 50vh;
+}
+
+#teaching img {
+  width: 10%;
+  height: 10%;
+}
+
+#teaching button {
+  color: whitesmoke;
+  background-color: #002B46;
 }
 /*# sourceMappingURL=style.css.map */
