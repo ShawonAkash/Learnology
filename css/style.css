@@ -29,12 +29,16 @@
 }
 
 #difference {
-  background: url("../img/bg.jpg") center center/cover;
+  background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-color: #002B46;
   background-blend-mode: multiply;
   width: 60%;
-  height: 50vh;
+  height: 70vh;
+}
+
+#difference .lead {
+  color: orange;
 }
 
 #instructors {
