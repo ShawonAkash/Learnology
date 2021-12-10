@@ -1,3 +1,7 @@
+#top-nav {
+  background-color: #002B46;
+}
+
 #about {
   position: relative;
   display: -webkit-box;
@@ -25,7 +29,10 @@
 }
 
 #difference {
-  background: url("../img/bg.jpg") no-repeat center center/cover;
+  background: url("../img/bg.jpg") center center/cover;
+  background-repeat: no-repeat;
+  background-color: #002B46;
+  background-blend-mode: multiply;
   width: 60%;
   height: 50vh;
 }
@@ -75,7 +82,10 @@
 }
 
 #enroll {
-  background: url("../img/friendss.png") no-repeat center center/cover;
+  background: url("../img/friendss.png") center center/cover;
+  background-repeat: no-repeat;
+  background-color: #002B46;
+  background-blend-mode: multiply;
   margin-top: 10vh;
   -webkit-box-align: center;
       -ms-flex-align: center;

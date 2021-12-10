@@ -1,3 +1,6 @@
+#top-nav{
+  background-color: #002B46;
+}
 #about{
   position: relative; 
   display: flex;
@@ -18,9 +21,15 @@
 }
 
 #difference{
-  background: url('../img/bg.jpg') no-repeat center center/cover;
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-color: #002B46;
+  background-blend-mode: multiply;
   width: 60%;
-  height: 50vh;
+  height: 70vh;
+  .lead{
+    color: orange;
+  }
 }
 
 #instructors{
@@ -58,7 +67,10 @@
   }
 }
 #enroll{
-  background: url('../img/friendss.png') no-repeat center center/cover;
+  background: url('../img/friendss.png')center center/cover;
+  background-repeat: no-repeat;
+  background-color: #002B46;
+  background-blend-mode: multiply;
   margin-top: 10vh;
   align-items: center;
   text-align: center;
