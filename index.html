@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
   <link rel="stylesheet" href="css/style.css">
@@ -14,27 +18,29 @@
 </head>
 
 <body>
-  <nav id="top-nav" class="navbar navbar-expand-lg">
+  <nav id="top-nav" class="navbar navbar-expand">
     <div class="container-fluid">
       <ul class="nav">
         <li class="nav-item">
-          <i class="fas fa-phone-volume"></i>
+          <img src="img/telephone 1.png" alt="">
           <a class="navbar-brand" href="#">(704)555-0127</a>
         </li>
         <li class="nav-item">
-          <i class="fas fa-envelope"></i>
+          <img src="img/envelope (1) 1.png" alt="">
           <a href="">learnology@support.com</a>
         </li>
       </ul>
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <form class="d-flex ">
-          <input class="form-control me-2 " type="search" placeholder="Search here" aria-label="Search">
+        <form class="d-flex  align-items-end">
+          <input class="form-control me-2 " type="search" placeholder="Search here" aria-label="Search"
+            style="background-color: #002B46;">
         </form>
       </div>
     </div>
   </nav>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
+  <nav id="below-nav" class="navbar navbar-expand-lg navbar-light bg-light ">
+    <div class="container-fluid mx-5">
       <a class="navbar-brand" href="#"><img src="img/Logo.png" alt=""></a>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav px-2">
@@ -97,7 +103,7 @@
             </ul>
           </li>
         </ul>
-        <button class="btn btn-primary" type="submit">Sign up</button>
+        <button class="btn text-light" type="submit" style="background-color: #002B46;">Sign up</button>
       </div>
     </div>
   </nav>
@@ -123,7 +129,7 @@
             velit mollit.Amet minim mollit non deserunt ullamco
           </p>
           <ul class="text-decoration-none" style="text-decoration: none">
-            <li><i class="far fa-check-square p-2"></i>Flexible Training Programs</li>
+            <li class="text-decoration-none"><i class="far fa-check-square p-2"></i>Flexible Training Programs</li>
             <li><i class="far fa-check-square p-2"></i>Experienced Instructors</li>
             <li><i class="far fa-check-square p-2"></i>Free Lifetime Support</li>
           </ul>
@@ -322,16 +328,16 @@
       course categories where you can develop your skills anytime from the best professionals.</p1>
 
 
-    <div class="row align-items-center justify-content-center p-5 mx-5">
+    <div class="row align-items-center justify-content-center mt-5">
 
-      <div class="col-md d-block row">
-        <img src="img/class 1.png" alt="" style="margin-left: 10px;">
-        <a class="btn" href="#">Start Teaching</a>
+      <div class="col-md d-block d-flex flex-column align-items-center justify-content-center">
+        <img src="img/class 1.png" alt="" style="margin-left: 50px;">
+        <a class="btn d-block" href="#">Start Teaching</a>
       </div>
 
-      <div class="col-md d-block row">
+      <div class="col-md d-block d-flex flex-column align-items-center justify-content-center">
         <img src="img/Vector.png" alt="" style="margin-left: 10px;">
-        <a class="btn" href="#">Start Learning</a>
+        <a class="btn d-block" href="#">Start Learning</a>
       </div>
     </div>
     </div>
@@ -357,7 +363,81 @@
 
     <!-- footer -->
 
-    <footer></footer>
+    <section id="footer" class=" mt-5">
+
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="./img/brand.png" alt="" class="img-fluid w-50 mt-5">
+            <p class="pt-2 text-white">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+            <p class="text-white fs-6">Newslatter</p>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="put your email here">
+              <button class="btn btn-outline-secondary text-white subscribe-btn">Subscribe</button>
+            </div>
+          </div>
+          <div class="col">
+            <p class="platform pt-5">Platform</p>
+            <a href="#">Browse Library</a>
+            <a href="#">IQ Test</a>
+            <a href="#">Partner Programme</a>
+            <a href="#">Authors</a>
+          </div>
+          <div class="col">
+            <p class="resources pt-5">Resources</p>
+            <a href="#">Library</a>
+            <a href="#">guides</a>
+            <a href="#">Tutorials</a>
+            <a href="#">FAQs</a>
+          </div>
+          <div class="col">
+            <p class="touch pt-5">Get In Touch</p>
+            <div class="touch-inner">
+              <div class="d-flex mt-3">
+                <img src="./img/location.png" alt="">
+                <p>4517 Washington Kentucky 39495</p>
+              </div>
+
+              <div class="d-flex mt-3">
+                <img src="./img/phone.png" alt="">
+                <div class="phone">
+                  <p>(702) 555-0122</p>
+                  <p>(702) 555-0122</p>
+                </div>
+              </div>
+
+              <div class="d-flex mt-3">
+                <img src="./img/mail.png" alt="">
+                <div class="phone">
+                  <p>Support@learnology.com</p>
+                  <p>Support@learnology.com</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="">
+          <hr>
+          <div class="d-flex justify-content-between ">
+            <div class="social d-flex">
+              <i class="fab fa-facebook"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-pinterest-p"></i>
+            </div>
+            <div class="copyright text-white">
+              <p>&copy; 2021 Learnology, All Rights Reserved.</p>
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
